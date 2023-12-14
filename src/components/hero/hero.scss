@@ -1,0 +1,119 @@
+@import '../../app.scss';
+
+.hero {
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  position: relative;
+
+  .wrapper {
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+
+    .textContainer {
+      position: relative;
+      z-index: 40;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+
+      @include mobile {
+        height: 50%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+      }
+
+      @include tablet {
+        height: 50%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 30px;
+        color: #8441c7;
+        letter-spacing: 10px;
+      }
+
+      h1 {
+        font-size: 88px;
+
+        @include mobile {
+          font-size: 36px;
+        }
+
+        @include tablet {
+          font-size: 74px;
+        }
+      }
+
+      .buttons {
+        a {
+          padding: 20px;
+          border: 1px solid #8441c7;
+          border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          margin-right: 20px;
+          cursor: pointer;
+          font-weight: 300;
+          font-size: 16px;
+        }
+        a:hover {
+          background-color: #b469ff30;
+        }
+      }
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+  .imageContainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 30;
+    right: -500px;
+
+    @include mobile {
+      height: 50%;
+      top: unset;
+      right: unset;
+      bottom: 5%;
+    }
+
+    @include tablet {
+      height: 60%;
+      top: unset;
+      right: unset;
+      bottom: 0;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .slidingTextContainer {
+    position: absolute;
+    font-size: 50vh;
+    bottom: -120px;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 50%;
+    font-weight: bold;
+    user-select: none;
+  }
+}
