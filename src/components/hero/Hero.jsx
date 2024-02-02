@@ -49,7 +49,7 @@ function Hero () {
           animate='animate'
         >
           <motion.h2 variants={textVariants}>MELANI MARES</motion.h2>
-          <motion.h1 variants={textVariants}>Desarrollo y diseño web a medida</motion.h1>
+          <motion.h1 variants={textVariants}>Desarrolladora web Frontend</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
             <motion.a href='#Portfolio' variants={textVariants}>Ver portfolio</motion.a>
             <motion.a href='#Contacto' variants={textVariants}>Contacto</motion.a>

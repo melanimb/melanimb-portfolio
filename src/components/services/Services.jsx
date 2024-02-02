@@ -16,9 +16,9 @@ function Services () {
         <div className="title">
           <img src="setup.png" alt="setup image" />
           <h1>
-            <b>Desarrollo </b>y
+            <b>Desarrolladora </b>y
             <br />
-            Diseño <b>Web.</b>
+            Diseñadora <b>Web.</b>
           </h1>
         </div>
       </div>
@@ -62,14 +62,12 @@ function Services () {
         <div className="box">
           <h2>Sobre mí</h2>
           <p>
-            Me apasiona el desarrollo frontend,
-            el diseño web,
-            aprender nuevas tecnologías y explorar
-            formas originales de resolver
-            problemas. Me interesa
-            trabajar en proyectos nuevos y
-            desafiantes que me permitan crecer
-            profesionalmente.
+          Empecé en el mundo de la programación  impulsada
+          por mi pasión por el arte, lo que me hizo querer
+          llevarlo a la creación de webs con diseños únicos
+          y originales. <br /> He desarrollado varios proyectos tanto
+          en solitario como en equipo y me encanta adquirir 
+          conocimientos contínuamente.
           </p>
         </div>
       </div>
