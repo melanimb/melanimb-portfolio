@@ -62,12 +62,11 @@ function Services () {
         <div className="box">
           <h2>Sobre mí</h2>
           <p>
-          Empecé en el mundo de la programación  impulsada
-          por mi pasión por el arte, lo que me hizo querer
-          llevarlo a la creación de webs con diseños únicos
-          y originales. <br /> He desarrollado varios proyectos tanto
-          en solitario como en equipo y me encanta adquirir 
-          conocimientos contínuamente.
+          +2 años de carrera como Desarrolladora Web autodidacta.
+          He desarrollado varios proyectos tanto en solitario
+          como en equipo. Vivo en Ontinyent, España. Actualmente 
+          sigo activa en la creación de proyectos y expandiendo
+          mis conocimientos.
           </p>
         </div>
       </div>
